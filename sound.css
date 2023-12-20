@@ -1,6 +1,6 @@
 html {
     font-size: 10px;
-    background: url(bgbg.jpg) bottom center;
+    background-color: #210124;
     background-size: cover;
   }
   body,html {
@@ -17,7 +17,7 @@ html {
   }
 
   button{
-    border: .4rem solid black;
+    border: .4rem solid #2F0454;
     border-radius: .5rem;
     margin: 1rem;
     font-size: 1.5rem;
@@ -26,7 +26,7 @@ html {
     width: 10rem;
     text-align: center;
     color: white;
-    background: rgba(0,0,0,0.4);
+    background: rgba(128, 123, 123, 0.4);
     text-shadow: 0 0 .5rem black;
   }
 
@@ -38,7 +38,7 @@ html {
 
   button:hover{
     transform: scale(1.5);
-    box-shadow: 0 0 20px red;
+    box-shadow: 0 0 20px #7700DF;
   }
 
   h1{
@@ -46,14 +46,21 @@ html {
     font-weight: bold;
     font-size: 40px;
     text-decoration: underline;
-    color: black;
+    color:#DDB5D9
+  }
+  h1:hover{
+    color:#7700DF;
   }
 
   #stopbtn{
     color: red;
+    border: .4rem solid red;
     margin: 1rem;
     padding: 1rem .5rem;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 30px;
+  }
+  #stobtn:hover{
+    box-shadow: 0 0 20px darkred;
   }
