@@ -1,4 +1,30 @@
-function play_sound(clicked_id) {
-    var audio = new Audio(clicked_id + ".mp3");
-    audio.play();
-  }
+const audio = ['Little Pig','clown','boing','classic','coca','door','duck',
+'incoming','meerkat','why','celebration','clapclapclap',
+'yoshi','PS2','FBI','W o W'];
+
+audio.forEach((audio)=>{
+    const btn = document.createElement('button');
+    btn.classList.add('btn');
+
+    btn.innerText = audio;
+
+    btn.addEventListener('click',()=>{
+        stopAudio();
+        document.getElementById(audio).play();
+    });
+
+    document.getElementById('buttons').appendChild(btn);
+});
+
+function stopAudio(){
+    audio.forEach(sound =>{
+        const song = document.getElementById(sound);
+
+        song.pause()
+        song.currentTime = 0;
+    })
+}
+
+document.getElementById('stopbtn').addEventListener('click',()=>{
+    stopAudio()
+})
