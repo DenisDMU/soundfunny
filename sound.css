@@ -64,6 +64,8 @@ html {
     font-size: 30px;
     align-items: center;
   }
-  #stobtn:hover{
-    box-shadow: 0 0 20px darkred;
+  #stopbtn:hover{
+    box-shadow: 0 0 20px #EB0A0A;
+    background-color: #EB0A0A;
+    color: white;
   }
