@@ -10,7 +10,8 @@ html {
   }
   .container{
     display: flex;
-    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
@@ -56,11 +57,12 @@ html {
   #stopbtn{
     color: red;
     border: .4rem solid red;
-    margin: 1rem;
+    margin: 10rem;
     padding: 1rem .5rem;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 30px;
+    align-items: center;
   }
   #stobtn:hover{
     box-shadow: 0 0 20px darkred;
