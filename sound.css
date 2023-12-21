@@ -28,6 +28,7 @@ html {
     color: white;
     background: rgba(128, 123, 123, 0.4);
     text-shadow: 0 0 .5rem black;
+    text-transform:capitalize
   }
 
   button:active{
