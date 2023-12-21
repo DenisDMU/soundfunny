@@ -22,9 +22,9 @@ function stopAudio(){
 
         song.pause()
         song.currentTime = 0;
-    })
-}
+    });
+};
 
 document.getElementById('stopbtn').addEventListener('click',()=>{
-    stopAudio()
-})
+    stopAudio();
+});
