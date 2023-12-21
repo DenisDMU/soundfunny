@@ -1,6 +1,6 @@
 const audio = ['Little Pig','clown','boing','classic','coca','door','duck',
 'incoming','meerkat','why','celebration','clapclapclap',
-'yoshi','PS2','FBI','W o W'];
+'yoshi','PS2','FBI','W o W','Coin !'];
 
 audio.forEach((audio)=>{
     const btn = document.createElement('button');
